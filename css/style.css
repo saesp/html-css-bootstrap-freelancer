@@ -4,6 +4,33 @@
     box-sizing: border-box;
 }
 
-header{
+header .container{
     background-color: blue;
+    color: white;
+    padding: 10px 0;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+main .container1{
+    background-color: aqua;
+}
+
+
+main .container1 .col-lg-12{
+    height: 40px;
+}
+.row .col{
+    text-align: center;
+}
+.row-avatar .col-lg-4{
+    height: 150px;
+}
+.row-avatar img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
