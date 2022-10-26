@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1170px;
+    margin: 0 auto
+}
+
+.row{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 header .container{
     background-color: blue;
     color: white;
