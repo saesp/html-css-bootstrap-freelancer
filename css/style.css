@@ -8,7 +8,9 @@
     max-width: 1170px;
     margin: 0 auto
 }
-
+body{
+    color: white;
+}
 .row{ 
     display: flex;
     flex-wrap: wrap;
@@ -20,8 +22,7 @@
 
 
 header .container{
-    background-color: blue;
-    color: white;
+    background-color: #2c3e50;
     padding: 10px 0;
 }
 
@@ -31,10 +32,24 @@ header a{
 }
 
 .container-aqua{
-    background-color: aqua;
+    background-color:#1abc9c;
 }
 
-
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 26px;
+}
+.container2{
+    color: black;
+}
+.container4 input{
+    border: 0;
+}
+.container4 .row-data{
+    border-bottom: 0.6px solid gray;
+}
 .col-lg-12{
     height: 40px;
 }
@@ -50,6 +65,19 @@ header a{
     transform: translate(-50%);
 }
 
+button{
+    background-color: #1abc9c;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    border-radius: 5%;
+}
+.container4{
+    color: black;
+}
+.button-send{
+    border: 0;
+}
 .card{
     margin: 10px auto;
 }
@@ -60,7 +88,16 @@ header a{
 }
 .card-about{
     text-align: left;
-    background-color: aqua;
+    background-color: #1abc9c;
     border: 0;
-    color: white;
+}
+
+.footer1{
+    background-color: #3a546d;
+}
+
+.footer2{
+    background-color: #2c3e50;
+    padding-top: 16px;
+    font-size: 13px;
 }
